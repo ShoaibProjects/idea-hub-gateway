@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "https://idea-hub-api.vercel.app/$1"
+      },
+      {
+        "source": "/admin/(.*)",
+        "destination": "https://admin-dashboard.vercel.app/$1"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "https://idea-hub-frontend.vercel.app/$1"
+      }
+    ]
+  }
+  
